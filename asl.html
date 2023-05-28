@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width" /> 
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+    <title>ASL Fingerspelling Translator</title>
+    <style>@import "asl.css";</style>
+</head>
+
+<body>
+    <h1>ASL Fingerspelling Translator</h1>
+
+    <div id="input">
+        <textarea id="phrase" rows="5" cols="60" name="text" 
+            placeholder="Enter text to be translated..."></textarea>
+        <p></p>
+        <button id="button">Start translating</button>
+        <form action="home.html" method="GET" id="form">
+            <button id="submit">Back to home</button>
+        </form>
+    </div>
+
+    <p id="error"></p>
+    <table id="imgs">
+    </table>
+
+    <script src="asl.js"></script>
+</body>
+</html>

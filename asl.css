@@ -1,0 +1,50 @@
+body
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(182, 201, 229);
+}
+h1
+{
+    text-align: center;
+    font-family: 'Alegreya';
+    color: rgb(33, 53, 82);
+    padding: 10px;
+}
+textarea
+{
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 140%;
+    width: 300px;
+    font-family: inherit;
+    border: solid goldenrod;
+}
+img
+{
+    width: 100px;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+button
+{
+    font-family: 'Alegreya';
+    font-weight: bold;
+    color: rgb(119, 90, 18);
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    border: 5px inset goldenrod;
+    max-width: max-content;
+}
+
+button#submit
+{
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+}

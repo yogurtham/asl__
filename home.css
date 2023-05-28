@@ -1,0 +1,99 @@
+body
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 227, 248);
+}
+h1
+{
+    text-align: center;
+    font-family: 'Alegreya';
+    color: rgb(33, 53, 82);
+}
+h2
+{
+    text-align: center;
+    font-family: Verdana;
+    color: rgb(33, 53, 82);
+    font-size: large;
+}
+div
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+p
+{
+    padding-bottom: 20px;
+    font-family: inherit;
+    color: rgb(33, 53, 82);
+    margin-top: 40px;
+}
+p#history
+{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: inherit;
+}
+p#famous
+{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: inherit;
+}
+p#hk
+{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: inherit;
+}
+button
+{
+    font-family: 'Alegreya';
+    font-weight: bold;
+    color: rgb(119, 90, 18);
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    border: 5px inset goldenrod;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    /*border: 4px inset goldenrod;*/
+}
+img
+{
+    width: 500px;
+    padding: 0%;
+}
+img#clerc
+{
+    width: 300px;
+    margin-right: 50px;
+}
+img#keller
+{
+    width: 400px;
+    margin-right: 20px;
+}
+img#beethoven
+{
+    width: 400px;
+    margin-top: 50px;
+}
+img#girma
+{
+    width: 400px;
+    margin-right: 20px;
+}
+form 
+{
+    display: inline-block; 
+}
